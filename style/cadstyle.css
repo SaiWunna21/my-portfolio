@@ -1,0 +1,106 @@
+body {
+  background-color: #F7F7F7;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #001413;
+}
+
+#navbar h1 {
+  font-family: "Playfair Display", serif;
+  color: #01F26D;
+  width: 75px;
+  height: auto;
+  align-items: center;
+  padding: 10px 16px;
+  float: left;
+  text-shadow: 1px 1px 2px wheat;
+}
+
+#navbar a {
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#navbar a:hover {
+  color: #01F26D;
+}
+
+.card {
+  border-radius: 5%;
+  background-color: rgb(192, 192, 192);
+  opacity: 90%;
+  width: 32%;
+  height: auto;
+  margin: 18px 11px;
+  display: inline-flex;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 20px rgba(36, 36, 36, 0.5);
+}
+
+.bocard img {
+  border-radius: 8%;
+  padding-top: 25px;
+  display: block;
+  width: 69.4%;
+  height: 69%;
+  margin: 0 auto;
+}
+
+.bocard h1 {
+  font-family: "Playfair Display", serif;
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+}
+
+#footer {
+  position: fixed;
+  margin-top: 33px;
+  padding: 2% 0 2% 0;
+  background-color: #001413;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.flogo img {
+  width: 120px;
+}
+
+.footer h1 {
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 20px;
+  color: #01F26D;
+}
+
+.social a {
+  text-decoration: none;
+}
+
+.social a img {
+  width: 50px;
+  height: auto;
+  padding: 10px;
+}
