@@ -6,7 +6,7 @@ body {
 }
 
 #navbar {
-  position: sticky;
+  position: block;
   top: 0;
   overflow: hidden;
   background-color: #001413;
@@ -71,7 +71,7 @@ body {
 }
 
 #footer {
-  position: fixed;
+  position: block;
   margin-top: 33px;
   padding: 2% 0 2% 0;
   background-color: #001413;
